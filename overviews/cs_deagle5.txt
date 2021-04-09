@@ -1,0 +1,14 @@
+// overview description file for cs_deagle5.bsp  (by d-o-Maxx@borgnet.de)
+
+global 
+{
+	ZOOM	3.10
+	ORIGIN	0.00    0.00   -513.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/cs_deagle5.bmp"
+	HEIGHT	-513.00
+}

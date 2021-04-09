@@ -1,0 +1,5 @@
+maps/mcdonalds_playplace.bsp
+maps/mcdonalds_playplace.txt
+maps/mcdonalds_playplace.res
+overviews/mcdonalds_playplace.tga
+overviews/mcdonalds_playplace.txt

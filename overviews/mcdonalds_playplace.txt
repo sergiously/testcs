@@ -1,0 +1,12 @@
+global 
+{
+	ZOOM	3.79
+	ORIGIN	-700 	    276		190
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/mcdonalds_playplace.tga"
+	HEIGHT	-113
+}

@@ -1,0 +1,3 @@
+maps/cs_winter_assault.bsp
+maps/cs_winter_assault.nav
+maps/cs_winter_assault.txt

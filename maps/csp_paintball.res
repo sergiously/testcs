@@ -1,0 +1,1 @@
+maps/csp_paintball.bsp

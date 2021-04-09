@@ -1,0 +1,12 @@
+cs_winter_assault - Winter Assault
+by Winter Night
+
+Counter-Terrorists: Rescue all the hostages from 
+the Computer Room upstairs.
+
+Terrorists: Prevent the Counter-Terrorists from 
+rescuing the hostages.
+
+Other Notes: There are 4 hostages in this mission.
+
+(Press FIRE to continue.)

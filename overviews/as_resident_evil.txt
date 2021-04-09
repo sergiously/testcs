@@ -1,0 +1,14 @@
+// overview description file for as_resident_evil.bmp  (by DCR Dirk Conrad - the uPd4t3d Data)
+
+global 
+{
+	ZOOM	1.56
+	ORIGIN	-70.00 272.00 -552.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/as_resident_evil.bmp"
+	HEIGHT	-496.0
+}

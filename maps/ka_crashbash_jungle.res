@@ -1,0 +1,2 @@
+maps/ka_crashbash_jungle.bsp
+maps/ka_crashbash_jungle.txt
