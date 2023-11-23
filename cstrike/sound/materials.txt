@@ -1,370 +1,9 @@
-//-----------------------------------------------------------
-//            Counter-Strike
-//-----------------------------------------------------------
-// In this file you can modify the sound the textures give
-// when the player walks on them
-//
-// Location: X:\halflife\valve\sound\materials.txt
-//
+// Half-Life Texture Types.  Modify this file only if texture names are changed!
+//  'M' metal, 'V' ventillation, 'D' dirt, 'S' slosh liquid 
+//  'T' tile, 'G' grate (Concrete is the default), 'W' wood, 'P' computer, 'Y' glass
 // NOTE: only the first 12 characters of the texture name are used
 // NOTE: a maximum of 512 textures may be tagged in this file
-//
-//  'M' metal
-//  'V' ventillation
-//  'D' dirt
-//  'S' slosh liquid 
-//  'T' tile
-//  'G' grate (Concrete is the default)
-//  'W' wood
-//  'P' computer
-//  'Y' glass
-//  'N' snow
-//  'X' grass
 
-N snow
-N A_Snow
-N znow1
-
-// AS_OILRIG
-
-G TSBgVent
-M TSCaution
-M TSCprFlr
-M TSCrteSd
-M TSCrteTp
-G TSFlrGrt
-M TSHull2
-M TSHull4
-M TSHull7
-M TSHull8
-M TSHull9
-M TSIBeam
-G TSNoSkd
-M TSOily
-M TSPlainRed
-D TSRfGrvl
-G TSShutters
-G TSVent
-
-//-----------------------------------------------------------
-// plane.wad
-//-----------------------------------------------------------
-M 747wall_x4
-M -1a747plane_x4
-M -0a747plane_x4
-M 747inv_block
-M planegen1
-M pl_out_shell4a
-M pl_out_shell3
-M pl_out_shell_dr
-M overhead_x4
-W curtain3
-W blueback_x4
-W chair1_x4
-W planeseatsideba
-
-//-----------------------------------------------------------
-
-// itsItaly.wad
-
-//-----------------------------------------------------------
-D brickPath
-W 64crate0
-W 64crate1
-W 64crateTop
-W bigCrate0
-W bigCrate1
-W bigCrate2
-W bigCrateTop
-W chestDrawers
-W crateBox
-W crateBoxLabel
-W oldWood
-W panelWood
-W wBarrelSide
-W wBarrelTop
-W wdnDrawer
-W wdbDrawers
-
-//-----------------------------------------------------------
-// cs_bdog.wad
-//-----------------------------------------------------------
-M TrainTop01
-M TrainTop02
-M DumpsterFront
-M DumpsterSide
-D Tracks01
-D Tracks02
-D Gravel01
-D Gravel02
-D GravelGrass01
-D GravelGrass02
-D GravelGrass03
-D GravelGrass04
-D Grass01
-W Wood01
-
-
-//-----------------------------------------------------------
-// cs.wad
-//-----------------------------------------------------------
-V {cstrike_OE4Ven
-W -0cstrike_FJ2Dk
-M -0cstrike_ME1Pl
-M -0cstrike_ME2Ri
-T -0cstrike_MH5Tl
-W -0cstrike_MJ2Sg
-M -0cstrike_WE1Mt
-M -0cstrike_WE4Al
-W -1cstrike_FJ2Dk
-M -1cstrike_ME1Pl
-M -1cstrike_ME2Ri
-T -1cstrike_MH5Tl
-W -1cstrike_MJ2Sg
-M -1cstrike_WE1Mt
-M -1cstrike_WE4Al
-M -2cstrike_ME1Pl
-M -2cstrike_WE1Mt
-M -3cstrike_ME1Pl
-M -4cstrike_ME1Pl
-M -5cstrike_ME1Pl
-M -6cstrike_ME1Pl
-M cstrike_CE2XCng
-T cstrike_CH3Tile
-W cstrike_CJ2Beam
-M cstrike_DE6Horz
-M cstrike_DE6Vert
-W cstrike_DJ2Old
-G cstrike_FE2Gtng
-M cstrike_FE2Sqrs
-M cstrike_FE4Crgd
-T cstrike_FH4WtTl
-W cstrike_FJ2Dock
-D cstrike_FT2Dirt
-D cstrike_FT2Mud
-D cstrike_FT4Apht
-M cstrike_ME1Clng
-G cstrike_ME1Grat
-M cstrike_ME2DRst
-M cstrike_ME2RstW
-M cstrike_ME4DCln
-M cstrike_ME4Greb
-M cstrike_ME4Metl
-G cstrike_ME4Radr
-M cstrike_ME7Caut
-M cstrike_OE1BxSd
-M cstrike_OE1BxTp
-M cstrike_OE1LgBm
-M cstrike_OE1SmBm
-M cstrike_OE2StrR
-V cstrike_OE2Vent
-M cstrike_OE4FnVt
-M cstrike_OE4Pnl
-M cstrike_OE4PnlH
-V cstrike_OE4Vent
-G cstrike_OE6TnkF
-G cstrike_OE6TnkS
-M cstrike_WE2Ribd
-
-//------------------------------------------------------------
-// chateau.wad
-//------------------------------------------------------------
-
-G {cxchana
-G {cxchanb
-M {cxcnstrctpoles
-D {cxcrtna
-D {cxcrtnd
-D {cxcrtnf
-M {cxgate
-M {fence2
-W cxbarrela
-D cxbooksa
-D cxbooksb
-D cxbooksc
-D cxbooksd
-D cxbookse
-D cxbooksf
-N cxbrusha
-N cxbrushb
-D cxcnstrcttarp
-D cxcnstrcttarpb
-W cxcnstrctwooda
-W cxcnstrctwoodb
-D cxcrptb
-D cxcrptc
-D cxcrptd
-W cxdecwdc
-W cxdecwdd
-W cxdrc
-W cxdrd
-D cxgrounda
-D cxgroundc
-D cxgroundd
-D cxgroundh
-D cxgroundk
-T cxmarblec
-T cxmarblee
-T cxmrbla
-W cxroofa
-D cxruga
-G cxsolida
-G cxsolidb
-G cxsolidc
-W cxstairsd
-W cxstairse
-W cxstairsf
-D cxtapa
-D cxtapb
-D cxtapc
-D cxtapd
-D cxtape
-D cxwllbooksa
-W cxwllh
-W cxwooda
-W cxwoodb
-W cxwoodd
-W cxwoodf
-W cxwoodh
-W cxwoodi
-W cxwoodj
-W cxwoodk
-W cxwoodl
-W cxwoodm
-
-//------------------------------------------------------------
-// de_piranesi.wad
-//------------------------------------------------------------
-
-M {pi_benchside
-W {pi_chairback
-M {pi_orrery01
-M {pi_orrery02
-M {pi_orrery03
-M {pi_railing
-M {pi_scaffold
-M {pi_window
-W pi_art1
-W pi_art2
-W pi_art3
-W pi_art4
-W pi_barrel
-W pi_barrelt
-W pi_bcase
-W pi_bigdoor
-D pi_brusha
-D pi_brushb
-M pi_buckets
-S pi_buckett
-W pi_chairleg
-W pi_chairtop
-T pi_floorst1
-T pi_floorst1g
-T pi_floorst4
-T pi_floorst4g
-T pi_floorst5
-W pi_floorwd1
-W pi_floorwd2
-W pi_floorwd3
-M pi_grnmetal
-M pi_grnmetalp
-M pi_grnmetalt
-X pi_ground
-M pi_lantern
-M pi_motor
-M pi_orrery04
-M pi_orrery05
-M pi_orrery06
-M pi_orrery07
-D pi_potb
-T pi_roof
-T pi_roofedge
-D pi_rug1
-D pi_rug2
-D pi_rug3
-D pi_rug4
-D pi_rug5
-D pi_rug6
-M pi_rust
-M pi_scaffold2
-W pi_secretf
-W pi_secrets
-T pi_signexc
-T pi_signexd
-T pi_steptop1
-T pi_steptop1d
-M pi_sundial
-Y pi_ticketwnd
-W pi_treetr1
-W pi_treetr2
-W pi_wood1
-W pi_wood2
-W pi_wood3
-W pi_wood4
-W pi_wood5
-W pi_woodceil
-
-//------------------------------------------------------------
-// de_airstrip.wad
-//------------------------------------------------------------
-
-W {ikcanopt
-W {ikcanopy
-W {ikcnp1
-G {ikfencea
-G {ikfenceb
-G {ikfencec
-W {ikjungwt
-W {ikjungwt2
-W {ikjungwt3
-W {ikjungwt4
-W {ikvinea
-W {ikvineb
-D {ikvinec
-W {ikvined
-W -0ikjungw
-W -1ikjungw
-W -2ikjungw
-M ikbarls1
-M ikbarls2
-M ikbarls3
-M ikbarls4
-M ikbarlt1
-M ikbarlt2
-M ikbarlt3
-M ikbarlt4
-W ikcratea
-W ikcrateb
-W ikcratec
-W ikcrated
-W ikcratee
-W ikcratef
-W ikcrateg
-W ikcrateh
-M ikftanks
-M ikftankt
-X ikgrndj
-D ikgrndjt
-D ikgrndrt
-D ikgrndrw
-D ikgrnds
-D ikgrndt
-D ikgrndt2
-D ikgrndt3
-D ikgrndte
-D ikgrndte2
-D ikgrndte3
-W ikjungw
-D ikjungwg
-M ikmetla
-M ikmetlb
-M ikmetlc
-W ikvines
-
-
-//-----------------------------------------------------------
-// Valve's Textures
-//-----------------------------------------------------------
 V DUCT_FLR01
 V DUCT_FLR01A
 V DUCT_FLR02A
@@ -375,11 +14,16 @@ V DUCT_WALL02
 V DUCT_WALL03
 V DUCT_WALL04
 V SILO2_COR
+
 D OUT_GRVL1
 D OUT_GRVL2
 D OUT_GRVL2B
 D OUT_GRVL3
 D OUT_MUD1
+//D OUT_RK1
+//D OUT_RK2
+//D OUT_RK3
+//D OUT_RK4
 D OUT_SND1
 D OUT_SND2
 D OUT_SND2B
@@ -407,6 +51,7 @@ D OUT_TNT3B
 D OUT_NET1
 D OUT_NET1B
 D FROSTSEWFLR
+
 G GENERIC109
 G GENERIC015C
 G GENERIC015D
@@ -445,6 +90,9 @@ G GRATESTEP3
 G GRID1
 G GRID2
 G GENERIC015V
+
+//M TNNL_FLR6
+//M TNNL_FLR6B
 M C1A1_FLR1
 M BABFL
 M C2A3TURBINE1
@@ -477,6 +125,7 @@ M GENERIC015U
 M GENERIC015V
 M GENERIC015V2
 M C1A4_DOME3
+
 S GENERIC_114
 S WATERBLUE
 S WATERGREEN
@@ -490,6 +139,7 @@ S WATERSILO
 S WATERSILO2
 S WATERF
 S FLUID1A
+
 T FIFT_BLOODFLR
 T FIFT_BLOODFLRA
 T FIFTIES_F01
@@ -543,6 +193,8 @@ T C1A0_LABFLRC
 T C1A0_LABFLRD
 T C1A0_LABFLRE
 T C1A0_LABFLR
+
+// UNBREAKABLE CRATES
 W CRATE01
 W CRATE02
 W CRATE02B
@@ -600,6 +252,7 @@ W CRATE12
 W CRATE13
 W CRATE24
 W CRATE27
+
 P C3A1_NRC2
 P C1A1_GAD1
 P C1A1_GAD2
@@ -744,6 +397,7 @@ P ELEV1_PAN
 P C2A4X_C3
 P C2A4X_C1
 P MEDKIT
+
 Y GLASS_BRIGHT
 Y GLASS_DARK
 Y GLASS_MED
@@ -751,37 +405,3 @@ Y GLASSBLUE1
 Y GLASSBLUE2
 Y GLASSGREEEN
 Y GLASSGREEEN
-
-
-
-//------------------------------------------------------------
-// cs_havana.wad
-//------------------------------------------------------------
-
-//  'M' metal
-//  'V' ventillation
-//  'D' dirt
-//  'S' slosh liquid 
-//  'T' tile
-//  'G' grate (Concrete is the default)
-//  'W' wood
-//  'P' computer
-//  'Y' glass
-//  'N' snow
-
-
-D cubed
-N cubrusha
-M cudumpsterc
-D cugroundb
-T cuiflra
-T cuiflrb
-T cuiflrc
-T cuiflrd
-T cuiflre
-T cuiflrf
-M custovetop
-M cutrashb
-W cuwoodm
-
-

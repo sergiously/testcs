@@ -21,75 +21,45 @@ Scheme
 	Colors
 	{
 		// base colors
-		"BaseText"			"255 176 0 255"	// used in text windows, lists
-		"BrightBaseText"		"255 176 0 255"	// brightest text
-		"SelectedText"		"255 176 0 255"	// selected text
-		"DimBaseText"		"255 176 0 255"	// dim base text
-		"LabelDimText"		"255 176 0 164"	// used for info text
-		"ControlText"		"255 176 0 255"	// used in all text controls
-		"BrightControlText"	"255 176 0 255"	// use for selected controls
-		"DisabledText1"		"80 48 0 255"	// disabled text
-		"DisabledText2"		"0 0 0 0"		// overlay color for disabled text (to give that inset look)
-		"DimListText"		"188 112 0 255"	// offline friends, unsubscribed games, etc.
-
-		"ButtonFocusBorder"	"64 48 0 255"	// keyboard focus dashed line for buttons
+		"BaseText"			"216 222 211 255"	// used in text windows, lists
+		"BrightBaseText"	"255 255 255 255"	// brightest text
+		"SelectedText"		"255 255 255 255"	// selected text
+		"DimBaseText"		"160 170 149 255"	// dim base text
+		"LabelDimText"		"160 170 149 255"	// used for info text
+		"ControlText"		"216 222 211 255"	// used in all text controls
+		"BrightControlText"	"196 181 80 255"	// use for selected controls
+		"DisabledText1"		"117 128 111 255"	// disabled text
+		"DisabledText2"		"40 46 34 255"		// overlay color for disabled text (to give that inset look)
+		"DimListText"		"117 134 102 255"	// offline friends, unsubscribed games, etc.
 
 		// background colors
-		"ControlBG"			"0 0 0 0"		// background color of most controls
-		"ButtonBG"			"0 0 0 64"		// background color of buttons
-		"ControlDarkBG"		"0 0 0 128"		// darker background color; used for background of scrollbars
-		"WindowBG"			"0 0 0 200"		// background color of text edit panes (chat, text entries, etc.)
-		//"SelectionBG"		"192 28 0 140"	// background color of any selected text or menu item
-		"SelectionBG"		"255 176 0 100"	// background color of any selected text or menu item
-		"SelectionBG2"		"255 255 255 16"		// selection background in window w/o focus
-		"ListBG"			"0 0 0 128"		// background of scoreboard
-		"ViewportBG"		"0 0 0 200"
-		"CareerBoxBG"		"0 0 0 227"
-		"Menu/BgColor"		"0 0 0 227"
-
-		// Credits ------------------------------------------------
-		"CreditsNormalFG"	"255 255 255 255"
-		"CreditsNormalBG"	"0 0 0 255"
-
-		"CreditsTitleFG"	"255 174 0 255"
-		"CreditsTitleBG"	"0 0 0 255"
-
-		"CreditsStudioTitleFG"	"255 174 0 255"
-		"CreditsStudioTitleBG"	"0 0 0 255"
-
-		"CreditsIndividualTitleFG"	"255 174 0 255"
-		"CreditsIndividualTitleBG"	"0 0 0 255"
-		// --------------------------------------------------------
+		"ControlBG"			"90 106 80 124"		// background color of controls
+		"ControlDarkBG"		"90 106 80 124"		// darker background color; used for background of scrollbars
+		"WindowBG"			"0 0 0 124"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"		"149 136 49 124"	// background color of any selected text or menu item
+		"SelectionBG2"		"40 46 34 124"		// selection background in window w/o focus
+		"ListBG"			"62 70 55 124"		// background of server browser, buddy list, etc.
 
 		// titlebar colors
-		"TitleText"			"255 174 0 255"
-		"TitleDimText"		"255 174 0 255"
-		"TitleBG"			"255 255 0 0"
-		"TitleDimBG"		"255 255 0 0"
-		"TitleIcon"		"255 174 0 255" // big '!' icon in top left
+		"TitleText"			"255 255 255 124"
+		"TitleDimText"		"255 0 0 124"
+		"TitleBG"			"255 0 0 124"
+		"TitleDimBG"		"255 0 0 124"
 		
 		// slider tick colors
-		"SliderTickColor"		"127 140 127 255"
+		"SliderTickColor"	"127 140 127 255"
 		"SliderTrackColor"	"31 31 31 255"
 
 		// border colors
-		"BorderBright"		"188 112 0 128"	// the lit side of a control
-		"BorderDark"		"188 112 0 128"	// the dark/unlit side of a control
-		"BorderSelection"		"188 112 0 0"	// the additional border color for displaying the default/selected button
-		"BorderBuyPreset"		"255 176 0 255"	// the lit side of a control
+		"BorderBright"		"0 255 0 255"	// the lit side of a control
+		"BorderDark"		"0 255 0 255"		// the dark/unlit side of a control
+		"BorderSelection"	"0 255 0 255"			// the additional border color for displaying the default/selected button
 
-		"team0"			"204 204 204 255" // Spectators
-		"team1"			"255 64 64 255" // CT's
-		"team2"			"153 204 255 255" // T's
-
-		// Statistics text
-		"StatisticsText"		"255 255 255 255"
-		"SelectedStatisticsText"	"128 128 128 255"
-
-		"BuyPresetBG"			"0 0 0 64"
-		"BuyPresetAltBG"		"0 0 0 128"
-
-		"MapDescriptionText"	"255 176 0 255" // the text used in the map description window
+		"team0"				"125 165 210"
+		"team1"				"200 90 70"
+		"team2"				"225 205 45"
+		"team3"				"145 215 140"
+		"team4"				"255 170 0"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -99,7 +69,6 @@ Scheme
 	{
 		"FgColor"			"ControlText"
 		"BgColor"			"ControlBG"
-		"ButtonBgColor"			"ButtonBG"
 		"LabelBgColor"		"ControlBG"
 		"SubPanelBgColor"	"ControlBG"
 
@@ -129,6 +98,7 @@ Scheme
 			"ArmedFgColor"		"BrightBaseText"
 			"ArmedBgColor"		"SelectionBG"
 			"DividerColor"		"BorderDark"
+
 			"TextInset"			"6"
 		}
 
@@ -202,13 +172,6 @@ Scheme
 			"SeperatorTextColor"	"DimBaseText"
 		}
 
-		Statistics
-		{
-			"Font"			"DefaultSmall"
-			"TextColor"		"StatisticsText"
-			"SelectedTextColor"	"SelectedStatisticsText"
-		}
-
 		"SectionTextColor"		"BrightControlText"	// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
 		"SectionDividerColor"	"BorderDark"		// color of line that runs under section name in buddy list
 	}
@@ -226,41 +189,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"600"
-				"yres"	"480 599"
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"500"
 			}
-			"2"
+		}
+		"DefaultBold"
+		{
+			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"600"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"600"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"600"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"600"
-				"yres"	"1200 6000"
-				"antialias"	"1"
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"1000"
 			}
 		}
 		"DefaultUnderline"
@@ -268,7 +208,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"12"
+				"tall"		"16"
 				"weight"	"500"
 				"underline" "1"
 			}
@@ -277,174 +217,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
+				"name"		"Tahoma"
 				"tall"		"13"
 				"weight"	"0"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"0"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"0"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"0"
-				"yres"	"1200 6000"
-				"antialias"	"1"
 			}
 		}
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Tahoma"
 				"tall"		"12"
-				"weight"	"600"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"600"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"600"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"600"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"600"
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-		}
-		"Title"
-		{
-			"1"
-			{
-				"name"		"Verdana Bold"
-				"tall"		"18"
-				"weight"	"500"
-			}
-			"2"
-			{
-				"name"		"Arial"
-				"tall"		"16"
-				"weight"	"600"
-			}
-		}
-		// Credits ------------------------------------------------
-		"CreditsTitle"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"26"
-				"weight"	"800"
-			}
-			"2"
-			{
-				"name"		"Arial"
-				"tall"		"26"
-				"weight"	"700"
-			}
-		}
-		"CreditsStudioTitle"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"24"
-				"weight"	"800"
-			}
-			"2"
-			{
-				"name"		"Arial"
-				"tall"		"24"
-				"weight"	"700"
-			}
-		}
-		"CreditsIndividualTitle"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"22"
-				"weight"	"800"
-			}
-			"2"
-			{
-				"name"		"Arial"
-				"tall"		"22"
-				"weight"	"700"
-			}
-		}
-		"CreditsNormal"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"20"
-				"weight"	"800"
-			}
-			"2"
-			{
-				"name"		"Arial"
-				"tall"		"20"
-				"weight"	"700"
-			}
-		}
-		// --------------------------------------------------------
-		"DialogTitle"
-		{
-			"1"
-			{
-				"name"		"Verdana Bold"
-				"tall"		"14"
-				"weight"	"500"
-			}
-			"2"
-			{
-				"name"		"Arial"
-				"tall"		"13"
-				"weight"	"600"
+				"weight"	"0"
 			}
 		}
 
@@ -454,7 +238,7 @@ Scheme
 			"1"
 			{
 				"name"		"Marlett"
-				"tall"		"11"
+				"tall"		"14"
 				"weight"	"0"
 				"symbol"	"1"
 			}
@@ -530,7 +314,7 @@ Scheme
 
 			Top
 			{
-				"1"
+				"4"
 				{
 					"color" "BorderBright"
 					"offset" "0 0"
@@ -708,7 +492,7 @@ Scheme
 		
 		ButtonBorder
 		{
-			"inset" "0 0 0 0"
+			"inset" "0 0 1 1"
 			Left
 			{
 				"1"
@@ -732,7 +516,7 @@ Scheme
 				"1"
 				{
 					"color" "BorderBright"
-					"offset" "1 1"
+					"offset" "0 1"
 				}
 			}
 
@@ -741,46 +525,6 @@ Scheme
 				"1"
 				{
 					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		BuyPresetBorder
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "BorderBuyPreset"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "BorderBuyPreset"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "BorderBuyPreset"
-					"offset" "1 1"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "BorderBuyPreset"
 					"offset" "0 0"
 				}
 			}
@@ -793,7 +537,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ControlBG"
+					"color" "BorderBright"
 					"offset" "0 1"
 				}
 			}
@@ -802,7 +546,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ControlBG"
+					"color" "BorderDark"
 					"offset" "0 0"
 				}
 			}
@@ -811,7 +555,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ControlBG"
+					"color" "BorderBright"
 					"offset" "0 1"
 				}
 			}
@@ -820,7 +564,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ControlBG"
+					"color" "BorderDark"
 					"offset" "0 0"
 				}
 			}
@@ -950,52 +694,69 @@ Scheme
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
-			"inset" "0 0 0 0"
+			"inset" "0 0 1 1"
 			Left
 			{
 				"1"
+				{
+					"color" "BorderSelection"
+					"offset" "0 0"
+				}
+				"2"
 				{
 					"color" "BorderBright"
 					"offset" "0 1"
 				}
 			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
-
 			Top
 			{
 				"1"
 				{
+					"color" "BorderSelection"
+					"offset" "0 0"
+				}
+				"2"
+				{
 					"color" "BorderBright"
-					"offset" "1 1"
+					"offset" "1 0"
 				}
 			}
-
+			Right
+			{
+				"1"
+				{
+					"color" "BorderSelection"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "BorderDark"
+					"offset" "1 0"
+				}
+			}
 			Bottom
 			{
 				"1"
 				{
-					"color" "BorderDark"
+					"color" "BorderSelection"
 					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "BorderDark"
+					"offset" "1 1"
 				}
 			}
 		}
 
 		ButtonDepressedBorder
 		{
-			"inset" "0 0 0 0"
+			"inset" "2 1 1 1"
 			Left
 			{
 				"1"
 				{
-					"color" "BorderBright"
+					"color" "BorderDark"
 					"offset" "0 1"
 				}
 			}
@@ -1004,8 +765,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "BorderDark"
-					"offset" "0 0"
+					"color" "BorderBright"
+					"offset" "1 0"
 				}
 			}
 
@@ -1013,8 +774,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "BorderBright"
-					"offset" "1 1"
+					"color" "BorderDark"
+					"offset" "0 0"
 				}
 			}
 
@@ -1022,7 +783,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "BorderDark"
+					"color" "BorderBright"
 					"offset" "0 0"
 				}
 			}
@@ -1146,45 +907,21 @@ Scheme
 				}
 			}
 		}
-
-		BuyPresetButtonBorder
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "ControlBG"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "1 1"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "ControlBG"
-					"offset" "0 0"
-				}
-			}
-		}
+	}
+	
+		//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//
+	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	CustomFontFiles
+	{
+		"4"		"resource/linux_fonts/DejaVuSans.ttf"
+		"5"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"6"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"7"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"8"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"9"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"10"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"11"		"resource/linux_fonts/FiraSans-Regular.ttf"
+		"12"		"resource/linux_fonts/FiraSans-Medium.ttf"
 	}
 }

@@ -1,4 +1,4 @@
-"Resource/CreateMultiplayerGameGameplayPage.res"
+"Resource/CreateMultiplayerGameG"
 {
 	"GameOptions"
 	{
@@ -6,8 +6,8 @@
 		"fieldName"		"GameOptions"
 		"xpos"		"10"
 		"ypos"		"10"
-		"wide"		"320"
-		"tall"		"325"
+		"wide"		"420"
+		"tall"		"346"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -30,7 +30,6 @@
 		"labelText"		"10"
 		"textAlignment"		"west"
 		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"topVertLeft"
 	{
@@ -48,7 +47,6 @@
 		"labelText"		"10"
 		"textAlignment"		"west"
 		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"bottomHorizRight"
 	{
@@ -66,7 +64,6 @@
 		"labelText"		"10"
 		"textAlignment"		"west"
 		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"bottomVertRight"
 	{
@@ -84,6 +81,5 @@
 		"labelText"		"10"
 		"textAlignment"		"west"
 		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 }
